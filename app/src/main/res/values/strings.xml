@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DNA Payment SDK demo</string>
+    <string name="google_pay">Google Pay</string>
+</resources>
