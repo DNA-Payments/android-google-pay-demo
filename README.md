@@ -9,7 +9,7 @@ This repository contains an example implementation of integrating Google Pay int
 ## Features
 
 - **Environment Support**: Supports both TEST and PRODUCTION environments.
-- **UI**: Provides a sample implementation with a button for initiating payments and a progress bar to indicate processing. Please make sure the Google Pay button to initiate transaction adheres to the Google Pay [brand guidelines](https://developers.google.com/pay/api/android/guides/brand-guidelines). Google Pay provides the [PayButton API](https://developers.google.com/pay/api/android/guides/resources/pay-button-api) that lets you customize the Google Pay payment button theme, shape and corner roundness to match your UI design.
+- **UI**: Create your own Google Pay button to initiate transaction. Please make sure the Google Pay button adheres to the Google Pay [brand guidelines](https://developers.google.com/pay/api/android/guides/brand-guidelines). 
 - **Customizable Payment Request**: Allows configuration of payment details, customer information, and order details.
 - **Error Handling**: Includes basic error handling for common exceptions.
 
