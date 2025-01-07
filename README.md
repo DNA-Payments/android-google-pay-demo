@@ -9,14 +9,14 @@ This repository contains an example implementation of integrating Google Pay int
 ## Features
 
 - **Environment Support**: Supports both TEST and PRODUCTION environments.
-- **UI**: Provides a sample implementation with a button for initiating payments and a progress bar to indicate processing.
+- **UI**: Provides a sample implementation with a button for initiating payments and a progress bar to indicate processing. Please make sure the Google Pay button to initiate transaction adheres to the Google Pay [brand guidelines](https://developers.google.com/pay/api/android/guides/brand-guidelines). Google Pay provides the [PayButton API](https://developers.google.com/pay/api/android/guides/resources/pay-button-api) that lets you customize the Google Pay payment button theme, shape and corner roundness to match your UI design.
 - **Customizable Payment Request**: Allows configuration of payment details, customer information, and order details.
 - **Error Handling**: Includes basic error handling for common exceptions.
 
 ## Prerequisites
 
 - An Android device or emulator with Google Play Services.
-- DNA Payments SDK `dnasdk.aar` file, please find under the `libs` folder in the demo project. 
+- DNA Payments SDK `dnasdk.aar` file, please find under the `libs` folder in the demo project. Note: Android AAR (Android Archive) library can be used in a Xamarin C# project, but it requires some additional steps because Xamarin does not natively support AAR files out of the box. Instead, you need to create a Xamarin binding library to wrap the AAR file so it can be used within your Xamarin project.
 
 
 ## Setup
